@@ -154,28 +154,28 @@ body
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-.onderwijs .education-card {
+.onderwijs .onderwijs-card {
    margin-bottom: 20px;
    padding: 15px;
    background-color: rgba(255, 255, 255, 0.1);
    border-radius: 8px;
    transition: transform 0.3s ease, background-color 0.3s ease;
 }
-.onderwijs .education-card:hover {
+.onderwijs .onderwijs-card:hover {
    transform: scale(1.02);
    background-color: rgba(255, 255, 255, 0.2);
 }
-.onderwijs .education-card h5 {
+.onderwijs .onderwijs-card h5 {
    color: lightblue;
    font-weight: 400;
    margin-bottom: 8px;
 }
-.onderwijs .education-card h4 {
+.onderwijs .onderwijs-card h4 {
    color: #ffffff;
    font-weight: 500;
    margin-bottom: 5px;
 }
-.onderwijs .education-card p {
+.onderwijs .onderwijs-card p {
    color: #b0b0b0;
    font-weight: 300;
    font-size: 14px;
@@ -488,30 +488,30 @@ button, .btn, a {
       font-size: 14px;
       line-height: 1.6;
    }
-   .timeline {
+   .werkervaring {
       padding-left: 15px;
    }
-   .timeline_item {
+   .werkervaring_item {
       padding-left: 10px;
    }
-   .timeline_item::before {
+   .werkervaring_item::before {
       width: 10px;
       height: 10px;
       left: -5px;
    }
-   .timeline_date {
+   .werkervaring_date {
       font-size: 14px;
    }
-   .timeline_content {
+   .werkervaring_content {
       padding: 8px;
    }
-   .timeline_content h4 {
+   .werkervaring_content h4 {
       font-size: 16px;
    }
-   .timeline_content h5 {
+   .werkervaring_content h5 {
       font-size: 14px;
    }
-   .timeline_content p {
+   .werkervaring_content p {
       font-size: 12px;
    }
    .onderwijs {
@@ -524,24 +524,24 @@ button, .btn, a {
       margin-bottom: 15px;
    }
 
-   .onderwijs .education-card {
+   .onderwijs .onderwijs-card {
       padding: 10px;
       margin-bottom: 15px;
    }
 
-   .onderwijs .education-card h5 {
+   .onderwijs .onderwijs-card h5 {
       font-size: 14px;
       text-align: center;
       color: lightblue;
    }
 
-   .onderwijs .education-card h4 {
+   .onderwijs .onderwijs-card h4 {
       font-size: 16px;
       text-align: center;
       color: #ffffff;
    }
 
-   .onderwijs .education-card p {
+   .onderwijs .onderwijs-card p {
       font-size: 14px;
       text-align: center;
       color: #b0b0b0;

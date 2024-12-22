@@ -12,7 +12,6 @@ body
    justify-content: center;
    align-items: center;
 }
-
 .container
 {
    position: relative;
@@ -41,7 +40,6 @@ body
    padding-bottom: 20px;
    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
-
 .profielTekst .imgBox {
    position: relative;
    width: 250px;
@@ -53,13 +51,11 @@ body
    justify-content: center;
    align-items: center;
 }
-
 .profielTekst .imgBox a {
    width: 100%;
    height: 100%;
    display: block;
 }
-
 .profielTekst .imgBox a img {
    position: absolute;
    top: 50%;
@@ -99,7 +95,6 @@ body
 }
 .contactgegevens
 {
-
    padding-top: 40px;
    padding-bottom: 40px;
    border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -115,8 +110,6 @@ body
 .contactgegevens ul
 {
    position: relative;
-
-
 }
 .contactgegevens ul li
 {
@@ -155,14 +148,12 @@ body
    padding: 20px 0;
    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-
 .onderwijs .title {
    font-size: 19px;
    margin-bottom: 20px;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-
 .onderwijs .education-card {
    margin-bottom: 20px;
    padding: 15px;
@@ -170,30 +161,25 @@ body
    border-radius: 8px;
    transition: transform 0.3s ease, background-color 0.3s ease;
 }
-
 .onderwijs .education-card:hover {
    transform: scale(1.02);
    background-color: rgba(255, 255, 255, 0.2);
 }
-
 .onderwijs .education-card h5 {
    color: lightblue;
    font-weight: 400;
    margin-bottom: 8px;
 }
-
 .onderwijs .education-card h4 {
    color: #ffffff;
    font-weight: 500;
    margin-bottom: 5px;
 }
-
 .onderwijs .education-card p {
    color: #b0b0b0;
    font-weight: 300;
    font-size: 14px;
 }
-
 .taal_vaardigheden {
    font-size: 16px;
    margin-top: 40px;
@@ -211,24 +197,20 @@ body
    text-align: left;
    border: none;
 }
-
 .taal_vaardigheden thead th {
    color: white;
    width: 30%;
 }
 .taal_vaardigheden tbody tr:nth-child(odd) td:first-child {
-
    color: white;
    font-size: 16px;
    width: auto;
 }
-
 .taal_vaardigheden tbody tr:nth-child(even) td:first-child {
    color: white;
    font-size: 16px;
    width: auto;
 }
-
 .taal_vaardigheden .percentage  {
    position: relative;
    width: 95%;
@@ -260,7 +242,6 @@ body
 .rechterkant_over{
    margin-bottom: 60px;
 }
-
 .rechterkant_over_title {
    width: 100%;
    text-align: center;
@@ -273,7 +254,6 @@ body
    transform: scale(1.01);
    color: lightgray;
 }
-
 p{
    color: black;
    text-align: justify;
@@ -285,19 +265,14 @@ p{
    padding-left: 30px;
    border-left: 3px solid #007BFF;
 }
-
-
 .werkervaring_item {
    margin-bottom: 30px;
    position: relative;
    padding-left: 20px;
 }
-
 .werkervaring_item:last-child {
    margin-bottom: 0;
 }
-
-
 .werkervaring_item::before {
    content: '';
    position: absolute;
@@ -310,42 +285,34 @@ p{
    border-radius: 50%;
    z-index: 1;
 }
-
-
 .werkervaring_date {
    font-size: 16px;
    font-weight: bold;
    color: #007BFF;
    margin-bottom: 5px;
 }
-
-
 .werkervaring_content {
    background: #f9f9f9;
    padding: 10px 15px;
    border-radius: 8px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 .werkervaring_content h4 {
    font-size: 18px;
    color: #333;
    margin: 0 0 5px;
 }
-
 .werkervaring_content h5 {
    font-size: 16px;
    font-weight: 500;
    color: #555;
    margin: 0 0 10px;
 }
-
 .werkervaring_content p {
    font-size: 14px;
    color: #666;
    margin: 0;
 }
-
 .skills {
    display: flex;
    flex-wrap: wrap;
@@ -359,7 +326,6 @@ p{
    align-items: center;
    gap: 10px;
 }
-
 .skill_circle .circle {
    width: 100px;
    height: 100px;
@@ -374,24 +340,19 @@ p{
    color: midnightblue;
 
 }
-
 .skill_circle .circle span {
    position: absolute;
    font-size: 14px;
    font-weight: bold;
 
 }
-
 .skill_circle p {
    font-size: 16px;
    font-weight: normal;
    color: midnightblue;
 
 }
-
-.Hobbys
-{
-
+.Hobbys {
    margin-top: 50px;
 }
 .Hobbys ul {
@@ -402,19 +363,16 @@ p{
    padding-top: 20px;
 
 }
-
 .Hobbys ul li {
    list-style: none;
    font-size: 14px;
    text-align: center;
    transition: transform 0.3s ease, color 0.3s ease;
 }
-
 .Hobbys ul li:hover {
    transform: scale(1.1);
    color: #007bff;
 }
-
 .Hobbys ul li .fa {
    color: #007BFF;
    font-size: 24px;
@@ -422,7 +380,6 @@ p{
    display: block;
    transition: color 0.3s ease;
 }
-
 .Hobbys ul li:hover .fa {
    color: midnightblue;
 }
@@ -440,16 +397,13 @@ p{
    z-index: 1000;
    height: 50px;
 }
-.footer_info
-{
+.footer_info {
    color: white;
 }
-.footer_links
-{
+.footer_links {
    text-align: left;
 }
-.footer_rechts
-{
+.footer_rechts {
    text-align: right;
 }
 .backToTop {
@@ -466,7 +420,6 @@ p{
    width: 40px;
    height: 40px;
 }
-
 .backToTop:hover {
    background-color: white;
    color: #002244;
